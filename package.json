@@ -1,0 +1,23 @@
+{
+  "name": "watchmempools",
+  "version": "1.0.0",
+  "description": "Watch Mem Pools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chuacw",
+  "license": "ISC",
+  "devDependencies": {
+    "@typechain/web3-v1": "^5.0.0",
+    "@types/node": "^17.0.16",
+    "@types/ws": "^8.2.2",
+    "bnc-sdk": "^4.1.0",
+    "dotenv": "^16.0.0",
+    "ts-node": "^10.5.0",
+    "typechain": "^7.0.0",
+    "typescript": "^4.5.5",
+    "web3": "^1.7.0",
+    "ws": "^8.5.0"
+  }
+}
