@@ -4,12 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
-            "name": "ts-node",
+            "name": "WatchRegistry",
             "type": "node",
             "request": "launch",
             "args": [
-                "WatchMemPool.ts"
+                "WatchRegistry.ts"
             ],
             "runtimeArgs": [
                 "-r",

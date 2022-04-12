@@ -11,8 +11,9 @@ const BscTestNetOptions: NetOptions = { NetworkId: 97, Address: "0xa555fC018435b
 const RinkebyNetOptions: NetOptions = { NetworkId: 4, Address: "0xb3dCcb4Cf7a26f6cf6B120Cf5A73875B7BBc655B" };
 const VRFv2RinkebyNetOptions: NetOptions = { NetworkId: 4, Address: "0x6168499c0cFfCaCD319c818142124B7A15E857ab" };
 const faucetRinkebyNetOptions: NetOptions = { NetworkId: 4, Address: "0x31B98D14007bDEe637298086988A0bBd31184523"};
+const Eth2DepositContract: NetOptions = {NetworkId: 1, Address: "0x00000000219ab540356cBB839Cbe05303d7705Fa"};
 
-const LNetworkOptions = faucetRinkebyNetOptions;
+const LNetworkOptions = Eth2DepositContract;
 
 
 let resubscribe = function () {
